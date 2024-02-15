@@ -1,0 +1,128 @@
+body{
+    background-image: url("g1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1900px 980px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.upper{
+    color: white;
+    word-spacing: 20px;
+    text-align: right;
+}
+
+#image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.content{
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+}
+h1{
+    font-size: 110px;
+}
+
+#search{
+    width: 600px;
+    height:50px;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-icons {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.icon {
+    padding: 17px;
+    color: black;
+}
+
+.icon1 {
+    padding-top: 17px;
+    padding-left: 500px;
+    color: black;
+}
+
+.icon2 {
+    padding-top: 17px;
+    padding-left: 550px;
+    color: black;
+}
+
+button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.buttons{
+    word-spacing: 50px;
+    line-height: 50px;
+}
+.text{
+    padding-left: 10px;
+    
+    word-spacing: 25px;
+    line-height: 50px;
+    font-size: 20px;
+}
+.text1{
+    word-spacing: 30px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.last{
+     text-align: right;
+     padding-top: 200px;
+}
+
+.icon3{
+    color:blue;
+    font-size: 25px;
+}
+.icon4{
+    color:green;
+    font-size: 25px;
+}
+.icon5{
+    color:red;
+    font-size: 25px;
+}
+.icon6{
+    color:black;
+    font-size: 25px;
+}
+.icon7{
+    color:blue;
+    font-size: 25px;
+}
+.icon8{
+    color: black;
+    font-size: 25px;
+}
+.icon9{
+    color:rgb(74, 102, 194);
+    font-size: 25px;
+}
+.icon10{
+    color:green;
+    font-size: 25px;
+}
+.icon11{
+    color:green;
+    font-size: 25px;
+}
+.icon12{
+    color:black;
+    font-size: 30px;
+}
