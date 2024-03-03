@@ -3,18 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <script src="index.js"></script>
         <title>Popup</title>
     </head>
-    <script>
-        function myFunction(){
-        var Name=document.getElementById("username").value; 
-        if (Name.trim() === '') {
-        alert('please enter the name');
-        } else {
-        alert('Hello '+ Name );
-        }
-    }
-    </script>    
+      
     <body>
         <form><h2>User Profile Form</h2>
             <fieldset>
@@ -27,6 +20,29 @@
                 <input type="text" id="number" pattern="\d{1,10}" style="width: 100%; height:20px" required><br>
             </fieldset><br>
             <button style="height: 30px; width: 80px; background: blue; color: white;" onclick="myFunction()">Submit</span></button>
+            <br>
+            <br>
+            <p>this is a paragraph</p>
         </form>
+        <div class="parent">
+            <div class="box" id="one">One</div>
+            <div class="box" id="two">Two</div>
+            <div class="box" id="three">Three</div>
+            <div class="box" id="four">Four</div><br>
+        </div>
+        <div class="second">
+            <div class="box" id="html">html</div>
+            <div class="box" id="css">css</div>
+            <div class="box" id="js">js</div>
+            <div class="box" id="react">react</div>
+        </div>
+        <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>js</li>
+            <li>node</li>
+            <li>c</li>
+            <li>cpp</li>
+        </ul>
     </body>
-</html>
+</html> 
